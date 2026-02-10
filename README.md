@@ -47,7 +47,7 @@ Multiple keys in a single request are rejected.
 
 ## Supported Operations
 
-1. Fibonacci Series
+**1. Fibonacci Series**
 
 Request
 
@@ -64,7 +64,7 @@ Response
   "data": [0, 1, 1, 2, 3, 5, 8]
 }
 
-2. Prime Number Filtering
+**2. Prime Number Filtering**
 
 Request
 
@@ -81,7 +81,7 @@ Response
   "data": [2, 7, 11]
 }
 
-3. LCM (Least Common Multiple)
+**3. LCM (Least Common Multiple)**
 
 Request
 
@@ -98,7 +98,7 @@ Response
   "data": 72
 }
 
-4. HCF (Highest Common Factor)
+**4. HCF (Highest Common Factor)**
 
 Request
 
@@ -115,7 +115,7 @@ Response
   "data": 12
 }
 
-5. AI-Based Question Answering
+**5. AI-Based Question Answering**
 Uses Google Gemini AI to answer factual questions and returns a single-word response.
 
 Request
@@ -159,16 +159,16 @@ GEMINI_API_KEY=your_gemini_api_key
 
 GEMINI_URL=https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent
 
-Security Note: Never commit the `.env` file to version control.
+
+**Security Note: Never commit the `.env` file to version control.**
 
 ## Running the Project Locally
 
 npm install
+
 node index.js
 
-Server will start on:
-
-http://localhost:3000
+Server will start on: http://localhost:3000
 
 ## Deployment
 
@@ -190,9 +190,7 @@ The application is deployed on Render for public access and evaluation.
 
 ## Author
 
-Gunjan Garg (2310990339)
-
-Aspiring Full-Stack Developer
+**Gunjan Garg (2310990339) - Aspiring Full-Stack Developer**
 
 Mail: gunjan0339.be23@chitkara.edu.in
 
