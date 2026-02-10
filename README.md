@@ -31,7 +31,6 @@ Used to verify server availability.
 
 Response
 
-```json
 {
   "is_success": true,
   "official_email": "your_chitkara_email@chitkara.edu.in"
@@ -50,7 +49,6 @@ Multiple keys in a single request are rejected.
 
 Request
 
-```json
 {
   "fibonacci": 7
 }
@@ -58,7 +56,6 @@ Request
 
 Response
 
-```json
 {
   "is_success": true,
   "official_email": "your_chitkara_email@chitkara.edu.in",
@@ -69,7 +66,6 @@ Response
 
 Request
 
-```json
 {
   "prime": [2, 4, 7, 9, 11]
 }
@@ -77,7 +73,6 @@ Request
 
 Response
 
-```json
 {
   "is_success": true,
   "official_email": "your_chitkara_email@chitkara.edu.in",
@@ -88,7 +83,6 @@ Response
 
 Request
 
-```json
 {
   "lcm": [12, 18, 24]
 }
@@ -96,7 +90,6 @@ Request
 
 Response
 
-```json
 {
   "is_success": true,
   "official_email": "your_chitkara_email@chitkara.edu.in",
@@ -107,7 +100,6 @@ Response
 
 Request
 
-```json
 {
   "hcf": [24, 36, 60]
 }
@@ -115,7 +107,6 @@ Request
 
 Response
 
-```json
 {
   "is_success": true,
   "official_email": "your_chitkara_email@chitkara.edu.in",
@@ -127,7 +118,6 @@ Uses Google Gemini AI to answer factual questions and returns a single-word resp
 
 Request
 
-```json
 {
   "AI": "What is the capital of Maharashtra?"
 }
@@ -135,7 +125,6 @@ Request
 
 Response
 
-```json
 {
   "is_success": true,
   "official_email": "your_chitkara_email@chitkara.edu.in",
@@ -151,7 +140,6 @@ If the request contains:
 
 Error Response
 
-```json
 {
   "is_success": false,
   "official_email": "your_chitkara_email@chitkara.edu.in",
@@ -170,7 +158,6 @@ Security Note: Never commit the `.env` file to version control.
 
 ## Running the Project Locally
 
-```bash
 npm install
 node index.js
 
@@ -198,7 +185,7 @@ The application is deployed on Render for public access and evaluation.
 
 ## Author
 
-Gunjan Garg
+Gunjan Garg (2310990339)
 Aspiring Full-Stack Developer
 
 Mail: gunjan0339.be23@chitkara.edu.in
