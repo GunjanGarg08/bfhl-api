@@ -19,12 +19,13 @@ Local:
 http://localhost:3000
 
 Production:
-https://<your-render-app>.onrender.com
+https://bfhl-api-gunjan.onrender.com
 
 
 ## Available Endpoints
 
-1. Health Check API
+**1. Health Check API**
+
 GET /health
 
 Used to verify server availability.
@@ -36,7 +37,8 @@ Response
   "official_email": "your_chitkara_email@chitkara.edu.in"
 }
 
-2. BFHL API
+**2. BFHL API**
+
 POST /bfhl
 
 Accepts exactly one key per request body.
@@ -189,7 +191,9 @@ The application is deployed on Render for public access and evaluation.
 ## Author
 
 Gunjan Garg (2310990339)
+
 Aspiring Full-Stack Developer
 
 Mail: gunjan0339.be23@chitkara.edu.in
+
 GitHub: https://github.com/GunjanGarg08
