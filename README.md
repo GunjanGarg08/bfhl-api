@@ -150,8 +150,11 @@ Error Response
 Create a ".env" file in the project root:
 
 PORT=3000
+
 OFFICIAL_EMAIL=your_chitkara_email@chitkara.edu.in
+
 GEMINI_API_KEY=your_gemini_api_key
+
 GEMINI_URL=https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent
 
 Security Note: Never commit the `.env` file to version control.
