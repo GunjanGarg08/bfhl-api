@@ -15,7 +15,6 @@ The API is designed to handle mathematical computations and basic AI-powered que
 
 ## API Base URL
 
-```md
 Local:
 http://localhost:3000
 
@@ -171,7 +170,6 @@ Security Note: Never commit the `.env` file to version control.
 
 ## Running the Project Locally
 
-```md
 ```bash
 npm install
 node index.js
